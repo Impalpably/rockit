@@ -37,7 +37,7 @@ MonoBehaviour:
   actionListOnStart: {fileID: 0}
   blackOutWhenSkipping: 0
   playerSwitching: 1
-  player: {fileID: 1918987306743626124, guid: 76ba697670bcd43d9a95317e855c52e9, type: 3}
+  player: {fileID: 11400004, guid: 0f5b84e91ea55416889c97bf7e999a0c, type: 3}
   players: []
   movementMethod: 2
   inputMethod: 0
@@ -55,7 +55,7 @@ MonoBehaviour:
   allowDefaultinteractions: 0
   alwaysCloseInteractionMenus: 1
   whenReselectHotspot: 0
-  lockCursorOnStart: 0
+  lockCursorOnStart: 1
   hideLockedCursor: 0
   disableFreeAimWhenDragging: 0
   runConversationsWithKeys: 0
