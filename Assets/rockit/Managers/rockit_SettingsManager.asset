@@ -37,7 +37,7 @@ MonoBehaviour:
   actionListOnStart: {fileID: 0}
   blackOutWhenSkipping: 0
   playerSwitching: 1
-  player: {fileID: 11400004, guid: 0f5b84e91ea55416889c97bf7e999a0c, type: 3}
+  player: {fileID: 1918987306743626124, guid: 76ba697670bcd43d9a95317e855c52e9, type: 3}
   players: []
   movementMethod: 2
   inputMethod: 0
@@ -107,7 +107,7 @@ MonoBehaviour:
   pathfindUpdateFrequency: 0
   verticalReductionFactor: 0.7
   rotationsAffectedByVerticalReduction: 1
-  jumpSpeed: 4
+  jumpSpeed: 6.5
   singleTapStraight: 0
   singleTapStraightPathfind: 0
   clickHoldSeparationStraight: 0.3
