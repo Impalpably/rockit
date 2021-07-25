@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: b3b1149f2ef89409ca01c0dd99d9eabe
+guid: 5369da909e7624686b7273e81db47e8e
 ModelImporter:
   serializedVersion: 20101
   internalIDToNameTable:
@@ -36,7 +36,42 @@ ModelImporter:
   - first:
       74: -4572000871502500860
     second: HumanArmature|Female_Walk
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Eyes
+    second: {fileID: 2100000, guid: b4398ccf9d47b45779ef9571122482cd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Hair
+    second: {fileID: 2100000, guid: 959c0ac66694546308dfd5f72d555c69, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: HairBase
+    second: {fileID: 2100000, guid: 1a0c2d1c23aff47eabb3f588663056e5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pants
+    second: {fileID: 2100000, guid: 04cd6c7472b0f4e18bc8d24abea795c6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shirt
+    second: {fileID: 2100000, guid: fa8d5c6443cee4f26aed93f9674c057c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shoes
+    second: {fileID: 2100000, guid: 721a6388bb20a43679145cb55670ebff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Skin
+    second: {fileID: 2100000, guid: 4b8e528d67cec4d08b40bd84c60bb827, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0
