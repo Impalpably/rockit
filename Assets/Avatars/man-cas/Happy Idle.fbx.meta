@@ -1,11 +1,11 @@
 fileFormatVersion: 2
-guid: 04732d036d16748bdb5f5cbbab017152
+guid: 9341271dda4a14cc5838853d4905c224
 ModelImporter:
   serializedVersion: 20101
   internalIDToNameTable:
   - first:
       74: 4523737202199915946
-    second: Drinking
+    second: HumanArmature|Man_Clapping
   - first:
       74: -3916294550958455020
     second: HumanArmature|Man_Death
@@ -38,10 +38,7 @@ ModelImporter:
     second: HumanArmature|Man_Walk
   - first:
       74: -203655887218126122
-    second: mixamo.com
-  - first:
-      74: -3780516532778130023
-    second: suit-drinking
+    second: happy-idle-cas-man
   externalObjects: {}
   materials:
     materialImportMode: 1
@@ -71,11 +68,11 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: suit-drinking
-      takeName: mixamo.com
+      name: HumanArmature|Man_Clapping
+      takeName: HumanArmature|Man_Clapping
       internalID: 0
       firstFrame: 0
-      lastFrame: 320
+      lastFrame: 50
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -390,11 +387,11 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: mixamo.com
+      name: happy-idle-cas-man
       takeName: mixamo.com
       internalID: 0
       firstFrame: 0
-      lastFrame: 320
+      lastFrame: 86
       wrapMode: 0
       orientationOffsetY: 0
       level: 0

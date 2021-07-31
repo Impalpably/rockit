@@ -1,47 +1,44 @@
 fileFormatVersion: 2
-guid: 04732d036d16748bdb5f5cbbab017152
+guid: ace491c7c9127445eb147631dd9701ee
 ModelImporter:
   serializedVersion: 20101
   internalIDToNameTable:
   - first:
-      74: 4523737202199915946
-    second: Drinking
+      74: -1324339039436596633
+    second: HumanArmature|Female_Clapping
   - first:
-      74: -3916294550958455020
-    second: HumanArmature|Man_Death
+      74: -6609741118087203734
+    second: HumanArmature|Female_Death
   - first:
-      74: 8106746524365628829
-    second: HumanArmature|Man_Idle
+      74: 7003038282533826427
+    second: HumanArmature|Female_Idle
   - first:
-      74: -6398272582352398571
-    second: HumanArmature|Man_Jump
+      74: -1286952744312769332
+    second: HumanArmature|Female_Jump
   - first:
-      74: 4607071556537973139
-    second: HumanArmature|Man_Punch
+      74: 4276485134849322222
+    second: HumanArmature|Female_Punch
   - first:
-      74: 7354251634412414196
-    second: HumanArmature|Man_Run
+      74: -8800169522339369126
+    second: HumanArmature|Female_Run
   - first:
-      74: 1443013137757961451
-    second: HumanArmature|Man_RunningJump
+      74: -2498000629041195823
+    second: HumanArmature|Female_RunningJump
   - first:
-      74: -6153676157489181926
-    second: HumanArmature|Man_Sitting
+      74: -5183055720578662317
+    second: HumanArmature|Female_Sitting
   - first:
-      74: -9164212156404960148
-    second: HumanArmature|Man_Standing
+      74: 8713042101208410295
+    second: HumanArmature|Female_Standing
   - first:
-      74: 3655391794997471651
-    second: HumanArmature|Man_SwordSlash
+      74: 1576496782917758114
+    second: HumanArmature|Female_SwordSlash
   - first:
-      74: 1555546630585696353
-    second: HumanArmature|Man_Walk
+      74: -4572000871502500860
+    second: HumanArmature|Female_Walk
   - first:
       74: -203655887218126122
-    second: mixamo.com
-  - first:
-      74: -3780516532778130023
-    second: suit-drinking
+    second: happy-dress
   externalObjects: {}
   materials:
     materialImportMode: 1
@@ -71,11 +68,11 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: suit-drinking
-      takeName: mixamo.com
+      name: HumanArmature|Female_Clapping
+      takeName: HumanArmature|Female_Clapping
       internalID: 0
       firstFrame: 0
-      lastFrame: 320
+      lastFrame: 50
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -100,8 +97,8 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: HumanArmature|Man_Death
-      takeName: HumanArmature|Man_Death
+      name: HumanArmature|Female_Death
+      takeName: HumanArmature|Female_Death
       internalID: 0
       firstFrame: 0
       lastFrame: 62
@@ -129,8 +126,8 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: HumanArmature|Man_Idle
-      takeName: HumanArmature|Man_Idle
+      name: HumanArmature|Female_Idle
+      takeName: HumanArmature|Female_Idle
       internalID: 0
       firstFrame: 0
       lastFrame: 125
@@ -158,8 +155,8 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: HumanArmature|Man_Jump
-      takeName: HumanArmature|Man_Jump
+      name: HumanArmature|Female_Jump
+      takeName: HumanArmature|Female_Jump
       internalID: 0
       firstFrame: 0
       lastFrame: 31
@@ -187,8 +184,8 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: HumanArmature|Man_Punch
-      takeName: HumanArmature|Man_Punch
+      name: HumanArmature|Female_Punch
+      takeName: HumanArmature|Female_Punch
       internalID: 0
       firstFrame: 0
       lastFrame: 28
@@ -216,8 +213,8 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: HumanArmature|Man_Run
-      takeName: HumanArmature|Man_Run
+      name: HumanArmature|Female_Run
+      takeName: HumanArmature|Female_Run
       internalID: 0
       firstFrame: 0
       lastFrame: 26
@@ -245,8 +242,8 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: HumanArmature|Man_RunningJump
-      takeName: HumanArmature|Man_RunningJump
+      name: HumanArmature|Female_RunningJump
+      takeName: HumanArmature|Female_RunningJump
       internalID: 0
       firstFrame: 0
       lastFrame: 38
@@ -274,8 +271,8 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: HumanArmature|Man_Sitting
-      takeName: HumanArmature|Man_Sitting
+      name: HumanArmature|Female_Sitting
+      takeName: HumanArmature|Female_Sitting
       internalID: 0
       firstFrame: 0
       lastFrame: 250
@@ -303,8 +300,8 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: HumanArmature|Man_Standing
-      takeName: HumanArmature|Man_Standing
+      name: HumanArmature|Female_Standing
+      takeName: HumanArmature|Female_Standing
       internalID: 0
       firstFrame: 0
       lastFrame: 25
@@ -332,8 +329,8 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: HumanArmature|Man_SwordSlash
-      takeName: HumanArmature|Man_SwordSlash
+      name: HumanArmature|Female_SwordSlash
+      takeName: HumanArmature|Female_SwordSlash
       internalID: 0
       firstFrame: 0
       lastFrame: 31
@@ -361,8 +358,8 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: HumanArmature|Man_Walk
-      takeName: HumanArmature|Man_Walk
+      name: HumanArmature|Female_Walk
+      takeName: HumanArmature|Female_Walk
       internalID: 0
       firstFrame: 0
       lastFrame: 31
@@ -390,11 +387,11 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: mixamo.com
+      name: happy-dress
       takeName: mixamo.com
       internalID: 0
       firstFrame: 0
-      lastFrame: 320
+      lastFrame: 300
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -473,7 +470,7 @@ ModelImporter:
     legStretch: 0.05
     feetSpacing: 0
     globalScale: 1
-    rootMotionBoneName: BaseHuman
+    rootMotionBoneName: Female
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
