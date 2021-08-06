@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/UImap.unity
     guid: be2ab0e23bfb74c9d8dbdf31d7c3cd56
+  - enabled: 1
+    path: Assets/Scenes/space-mixology.unity
+    guid: 7a120e4db9333495c99986e30715ea22
   m_configObjects: {}
