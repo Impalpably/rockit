@@ -1,0 +1,88 @@
+mdl 1.3;
+
+using state import *;
+
+import adobe::mtl::*;
+import adobe::util::*;
+import ::tex::gamma_mode;
+import ::state::normal;
+
+export material liquid_Mat(*)
+  = adobe::mtl::standard(
+    opacity : adobe::util::float_texture( texture_2d("margarita_glass_with_olives/liquid_Mat_opacity.png", ::tex::gamma_linear) ),
+    baseColor : adobe::util::color_texture( texture_2d("margarita_glass_with_olives/liquid_Mat_baseColor.png", ::tex::gamma_srgb) ),
+    translucence : adobe::util::float_texture( texture_2d("margarita_glass_with_olives/liquid_Mat_translucence.png", ::tex::gamma_linear) ),
+    glow : adobe::util::float_texture( texture_2d("margarita_glass_with_olives/liquid_Mat_glow.png", ::tex::gamma_linear) ),
+    indexOfRefraction : float(1.5),
+    density : float(0.0),
+    roughness : adobe::util::float_texture( texture_2d("margarita_glass_with_olives/liquid_Mat_roughness.png", ::tex::gamma_linear) ),
+    normal : adobe::util::normal_texture( texture_2d("margarita_glass_with_olives/liquid_Mat_normal.png", ::tex::gamma_linear) ),
+    interiorColor : color(1.0, 1.0, 1.0),
+    metallic : adobe::util::float_texture( texture_2d("margarita_glass_with_olives/liquid_Mat_metallic.png", ::tex::gamma_linear) ),
+    height : float(0.5),
+    heightScale : float(1.0)
+    );
+
+export material glass_Mat(*)
+  = adobe::mtl::standard(
+    opacity : adobe::util::float_texture( texture_2d("margarita_glass_with_olives/glass_Mat_opacity.png", ::tex::gamma_linear) ),
+    baseColor : adobe::util::color_texture( texture_2d("margarita_glass_with_olives/glass_Mat_baseColor.png", ::tex::gamma_srgb) ),
+    translucence : adobe::util::float_texture( texture_2d("margarita_glass_with_olives/glass_Mat_translucence.png", ::tex::gamma_linear) ),
+    glow : adobe::util::float_texture( texture_2d("margarita_glass_with_olives/glass_Mat_glow.png", ::tex::gamma_linear) ),
+    indexOfRefraction : float(1.5),
+    density : float(0.0),
+    roughness : adobe::util::float_texture( texture_2d("margarita_glass_with_olives/glass_Mat_roughness.png", ::tex::gamma_linear) ),
+    normal : adobe::util::normal_texture( texture_2d("margarita_glass_with_olives/glass_Mat_normal.png", ::tex::gamma_linear) ),
+    interiorColor : color(1.0, 1.0, 1.0),
+    metallic : adobe::util::float_texture( texture_2d("margarita_glass_with_olives/glass_Mat_metallic.png", ::tex::gamma_linear) ),
+    height : float(0.5),
+    heightScale : float(1.0)
+    );
+
+export material metal_Mat(*)
+  = adobe::mtl::standard(
+    opacity : adobe::util::float_texture( texture_2d("margarita_glass_with_olives/metal_Mat_opacity.png", ::tex::gamma_linear) ),
+    baseColor : adobe::util::color_texture( texture_2d("margarita_glass_with_olives/metal_Mat_baseColor.png", ::tex::gamma_srgb) ),
+    translucence : float(0.0),
+    glow : adobe::util::float_texture( texture_2d("margarita_glass_with_olives/metal_Mat_glow.png", ::tex::gamma_linear) ),
+    indexOfRefraction : float(1.5),
+    density : float(0.0),
+    roughness : adobe::util::float_texture( texture_2d("margarita_glass_with_olives/metal_Mat_roughness.png", ::tex::gamma_linear) ),
+    normal : adobe::util::normal_texture( texture_2d("margarita_glass_with_olives/metal_Mat_normal.png", ::tex::gamma_linear) ),
+    interiorColor : color(1.0, 1.0, 1.0),
+    metallic : adobe::util::float_texture( texture_2d("margarita_glass_with_olives/metal_Mat_metallic.png", ::tex::gamma_linear) ),
+    height : float(0.5),
+    heightScale : float(1.0)
+    );
+
+export material orange_slice_Mat(*)
+  = adobe::mtl::standard(
+    opacity : adobe::util::float_texture( texture_2d("margarita_glass_with_olives/orange_slice_Mat_opacity.png", ::tex::gamma_linear) ),
+    baseColor : adobe::util::color_texture( texture_2d("margarita_glass_with_olives/orange_slice_Mat_baseColor.png", ::tex::gamma_srgb) ),
+    translucence : float(0.0),
+    glow : adobe::util::float_texture( texture_2d("margarita_glass_with_olives/orange_slice_Mat_glow.png", ::tex::gamma_linear) ),
+    indexOfRefraction : float(1.5),
+    density : float(0.0),
+    roughness : adobe::util::float_texture( texture_2d("margarita_glass_with_olives/orange_slice_Mat_roughness.png", ::tex::gamma_linear) ),
+    normal : adobe::util::normal_texture( texture_2d("margarita_glass_with_olives/orange_slice_Mat_normal.png", ::tex::gamma_linear) ),
+    interiorColor : color(1.0, 1.0, 1.0),
+    metallic : adobe::util::float_texture( texture_2d("margarita_glass_with_olives/orange_slice_Mat_metallic.png", ::tex::gamma_linear) ),
+    height : float(0.5),
+    heightScale : float(1.0)
+    );
+
+export material olive_Mat(*)
+  = adobe::mtl::standard(
+    opacity : adobe::util::float_texture( texture_2d("margarita_glass_with_olives/olive_Mat_opacity.png", ::tex::gamma_linear) ),
+    baseColor : adobe::util::color_texture( texture_2d("margarita_glass_with_olives/olive_Mat_baseColor.png", ::tex::gamma_srgb) ),
+    translucence : float(0.0),
+    glow : adobe::util::float_texture( texture_2d("margarita_glass_with_olives/olive_Mat_glow.png", ::tex::gamma_linear) ),
+    indexOfRefraction : float(1.5),
+    density : float(0.0),
+    roughness : adobe::util::float_texture( texture_2d("margarita_glass_with_olives/olive_Mat_roughness.png", ::tex::gamma_linear) ),
+    normal : adobe::util::normal_texture( texture_2d("margarita_glass_with_olives/olive_Mat_normal.png", ::tex::gamma_linear) ),
+    interiorColor : color(1.0, 1.0, 1.0),
+    metallic : adobe::util::float_texture( texture_2d("margarita_glass_with_olives/olive_Mat_metallic.png", ::tex::gamma_linear) ),
+    height : float(0.5),
+    heightScale : float(1.0)
+    );
