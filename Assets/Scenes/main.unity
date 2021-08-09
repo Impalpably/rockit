@@ -29643,6 +29643,7 @@ GameObject:
   - component: {fileID: 1043762498}
   - component: {fileID: 1043762497}
   - component: {fileID: 1043762496}
+  - component: {fileID: 1043762501}
   m_Layer: 0
   m_Name: Cylinder
   m_TagString: Untagged
@@ -36543,6 +36544,107 @@ Transform:
   m_Father: {fileID: 1476895433}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1043762501
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1043762495}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b7c3ce72f27144c1be5a4a8ce09121d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactionSource: 0
+  limitToCamera: {fileID: 0}
+  interactiveBoundary: {fileID: 0}
+  hotspotName: Music Switch
+  lineID: -1
+  highlight: {fileID: 0}
+  walkToMarker: {fileID: 0}
+  centrePoint: {fileID: 0}
+  centrePointOverrides: 0
+  provideUseInteraction: 0
+  useButton:
+    interaction: {fileID: 0}
+    assetFile: {fileID: 0}
+    customScriptObject: {fileID: 0}
+    customScriptFunction: 
+    isDisabled: 0
+    invID: 0
+    iconID: -1
+    selectItemMode: 0
+    playerAction: 0
+    setProximity: 0
+    proximity: 1
+    faceAfter: 0
+    isBlocking: 0
+    parameterID: -1
+    invParameterID: -1
+  useButtons: []
+  oneClick: 0
+  provideLookInteraction: 0
+  lookButton:
+    interaction: {fileID: 0}
+    assetFile: {fileID: 0}
+    customScriptObject: {fileID: 0}
+    customScriptFunction: 
+    isDisabled: 0
+    invID: 0
+    iconID: -1
+    selectItemMode: 0
+    playerAction: 0
+    setProximity: 0
+    proximity: 1
+    faceAfter: 0
+    isBlocking: 0
+    parameterID: -1
+    invParameterID: -1
+  provideInvInteraction: 0
+  invButtons: []
+  provideUnhandledUseInteraction: 0
+  provideUnhandledInvInteraction: 0
+  unhandledUseButton:
+    interaction: {fileID: 0}
+    assetFile: {fileID: 0}
+    customScriptObject: {fileID: 0}
+    customScriptFunction: 
+    isDisabled: 0
+    invID: 0
+    iconID: -1
+    selectItemMode: 0
+    playerAction: 0
+    setProximity: 0
+    proximity: 1
+    faceAfter: 0
+    isBlocking: 0
+    parameterID: -1
+    invParameterID: -1
+  unhandledInvButton:
+    interaction: {fileID: 0}
+    assetFile: {fileID: 0}
+    customScriptObject: {fileID: 0}
+    customScriptFunction: 
+    isDisabled: 0
+    invID: 0
+    iconID: -1
+    selectItemMode: 0
+    playerAction: 0
+    setProximity: 0
+    proximity: 1
+    faceAfter: 0
+    isBlocking: 0
+    parameterID: -1
+    invParameterID: -1
+  canBeLowerCase: 0
+  drawGizmos: 1
+  lastInteractionIndex: 0
+  displayLineID: -1
+  iconSortingLayer: 
+  iconSortingOrder: 0
+  doubleClickingHotspot: 0
+  playerTurnsHead: 1
 --- !u!1 &1045353776
 GameObject:
   m_ObjectHideFlags: 0
@@ -65739,8 +65841,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1476895433}
   - component: {fileID: 1476895435}
-  - component: {fileID: 1476895434}
-  - component: {fileID: 1476895436}
   m_Layer: 0
   m_Name: Stage
   m_TagString: Untagged
@@ -65772,22 +65872,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!54 &1476895434
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1476895432}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!114 &1476895435
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -65820,8 +65904,8 @@ MonoBehaviour:
       hideUnused: 0
       transitions:
       - fsmEvent:
-          name: 'on click '
-          isSystemEvent: 0
+          name: UI CLICK
+          isSystemEvent: 1
           isGlobal: 0
         toState: State 2
         linkStyle: 0
@@ -65840,14 +65924,14 @@ MonoBehaviour:
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams:
-        - ownerOption: 0
+        - ownerOption: 1
           gameObject:
             useVariable: 0
             name: 
             tooltip: 
             showInInspector: 0
             networkSync: 0
-            value: {fileID: 0}
+            value: {fileID: 1043762495}
         animationCurveParams: []
         functionCallParams: []
         fsmTemplateControlParams: []
@@ -65881,7 +65965,7 @@ MonoBehaviour:
         fsmQuaternionParams: []
         stringParams:
         - 
-        - 'on click '
+        - UI CLICK
         - 
         - 
         byteData: 01
@@ -65927,6 +66011,8 @@ MonoBehaviour:
         colorIndex: 0
       actionData:
         actionNames:
+        - HutongGames.PlayMaker.Actions.AudioStop
+        - HutongGames.PlayMaker.Actions.Wait
         - HutongGames.PlayMaker.Actions.AudioPlay
         - HutongGames.PlayMaker.Actions.ActivateGameObject
         - HutongGames.PlayMaker.Actions.NextFrameEvent
@@ -65934,13 +66020,23 @@ MonoBehaviour:
         - 
         - 
         - 
-        actionEnabled: 010101
-        actionIsOpen: 010101
-        actionStartIndex: 00000000050000000a000000
-        actionHashCodes: 81294e04b2cf100088611604
+        - 
+        - 
+        actionEnabled: 0101010101
+        actionIsOpen: 0101010101
+        actionStartIndex: 0000000002000000050000000a0000000f000000
+        actionHashCodes: e8ea390248c0110181294e04b2cf100088611604
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams:
+        - ownerOption: 1
+          gameObject:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 588108563}
         - ownerOption: 1
           gameObject:
             useVariable: 0
@@ -65981,6 +66077,18 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
+          value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
           value: 1
         fsmIntParams: []
         fsmBoolParams:
@@ -66009,14 +66117,20 @@ MonoBehaviour:
         fsmQuaternionParams: []
         stringParams:
         - 
+        - 
         - FINISHED
-        byteData: 0000
+        byteData: 000000
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 140000000f000000180000001100000017000000140000001100000011000000010000000100000017000000
+        paramDataType: 140000000f0000000f0000001700000001000000140000000f000000180000001100000017000000140000001100000011000000010000000100000017000000
         paramName:
+        - gameObject
+        - fadeTime
+        - time
+        - finishEvent
+        - realTime
         - gameObject
         - volume
         - oneShotClip
@@ -66028,8 +66142,8 @@ MonoBehaviour:
         - resetOnExit
         - everyFrame
         - sendEvent
-        paramDataPos: 0000000000000000000000000000000000000000010000000100000002000000000000000100000001000000
-        paramByteDataSize: 0000000000000000000000000000000000000000000000000000000000000000010000000100000000000000
+        paramDataPos: 00000000000000000100000000000000000000000100000002000000000000000000000001000000020000000100000002000000010000000200000002000000
+        paramByteDataSize: 00000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000000000000010000000100000000000000
     - name: State 3
       description: 
       colorIndex: 0
@@ -66044,8 +66158,8 @@ MonoBehaviour:
       hideUnused: 0
       transitions:
       - fsmEvent:
-          name: 'on click '
-          isSystemEvent: 0
+          name: UI CLICK
+          isSystemEvent: 1
           isGlobal: 0
         toState: State 4
         linkStyle: 0
@@ -66064,14 +66178,14 @@ MonoBehaviour:
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams:
-        - ownerOption: 0
+        - ownerOption: 1
           gameObject:
             useVariable: 0
             name: 
             tooltip: 
             showInInspector: 0
             networkSync: 0
-            value: {fileID: 0}
+            value: {fileID: 1043762495}
         animationCurveParams: []
         functionCallParams: []
         fsmTemplateControlParams: []
@@ -66105,7 +66219,7 @@ MonoBehaviour:
         fsmQuaternionParams: []
         stringParams:
         - 
-        - 'on click '
+        - UI CLICK
         - 
         - 
         byteData: 01
@@ -66151,6 +66265,8 @@ MonoBehaviour:
         colorIndex: 0
       actionData:
         actionNames:
+        - HutongGames.PlayMaker.Actions.AudioStop
+        - HutongGames.PlayMaker.Actions.Wait
         - HutongGames.PlayMaker.Actions.AudioPlay
         - HutongGames.PlayMaker.Actions.ActivateGameObject
         - HutongGames.PlayMaker.Actions.ActivateGameObject
@@ -66160,13 +66276,23 @@ MonoBehaviour:
         - 
         - 
         - 
-        actionEnabled: 01010101
-        actionIsOpen: 01010101
-        actionStartIndex: 00000000050000000a0000000f000000
-        actionHashCodes: 81294e04b2cf1000b2cf100088611604
+        - 
+        - 
+        actionEnabled: 010101010101
+        actionIsOpen: 010101010101
+        actionStartIndex: 0000000002000000050000000a0000000f00000014000000
+        actionHashCodes: e8ea390248c0110181294e04b2cf1000b2cf100088611604
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams:
+        - ownerOption: 1
+          gameObject:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 588108563}
         - ownerOption: 1
           gameObject:
             useVariable: 0
@@ -66215,6 +66341,18 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
+          value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
           value: 1
         fsmIntParams: []
         fsmBoolParams:
@@ -66255,14 +66393,20 @@ MonoBehaviour:
         fsmQuaternionParams: []
         stringParams:
         - 
+        - 
         - FINISHED
-        byteData: 00000000
+        byteData: 0000000000
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 140000000f0000001800000011000000170000001400000011000000110000000100000001000000140000001100000011000000010000000100000017000000
+        paramDataType: 140000000f0000000f0000001700000001000000140000000f0000001800000011000000170000001400000011000000110000000100000001000000140000001100000011000000010000000100000017000000
         paramName:
+        - gameObject
+        - fadeTime
+        - time
+        - finishEvent
+        - realTime
         - gameObject
         - volume
         - oneShotClip
@@ -66279,8 +66423,8 @@ MonoBehaviour:
         - resetOnExit
         - everyFrame
         - sendEvent
-        paramDataPos: 00000000000000000000000000000000000000000100000001000000020000000000000001000000020000000300000004000000020000000300000001000000
-        paramByteDataSize: 00000000000000000000000000000000000000000000000000000000000000000100000001000000000000000000000000000000010000000100000000000000
+        paramDataPos: 000000000000000001000000000000000000000001000000020000000000000000000000010000000200000001000000020000000100000002000000030000000300000004000000030000000400000002000000
+        paramByteDataSize: 000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000000000000100000001000000000000000000000000000000010000000100000000000000
     - name: State 5
       description: 
       colorIndex: 0
@@ -66295,8 +66439,8 @@ MonoBehaviour:
       hideUnused: 0
       transitions:
       - fsmEvent:
-          name: 'on click '
-          isSystemEvent: 0
+          name: UI CLICK
+          isSystemEvent: 1
           isGlobal: 0
         toState: State 6
         linkStyle: 0
@@ -66315,14 +66459,14 @@ MonoBehaviour:
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams:
-        - ownerOption: 0
+        - ownerOption: 1
           gameObject:
             useVariable: 0
             name: 
             tooltip: 
             showInInspector: 0
             networkSync: 0
-            value: {fileID: 0}
+            value: {fileID: 1043762495}
         animationCurveParams: []
         functionCallParams: []
         fsmTemplateControlParams: []
@@ -66356,7 +66500,7 @@ MonoBehaviour:
         fsmQuaternionParams: []
         stringParams:
         - 
-        - 'on click '
+        - UI CLICK
         - 
         - 
         byteData: 01
@@ -66402,6 +66546,8 @@ MonoBehaviour:
         colorIndex: 0
       actionData:
         actionNames:
+        - HutongGames.PlayMaker.Actions.AudioStop
+        - HutongGames.PlayMaker.Actions.Wait
         - HutongGames.PlayMaker.Actions.AudioPlay
         - HutongGames.PlayMaker.Actions.ActivateGameObject
         - HutongGames.PlayMaker.Actions.NextFrameEvent
@@ -66409,13 +66555,23 @@ MonoBehaviour:
         - 
         - 
         - 
-        actionEnabled: 010101
-        actionIsOpen: 010101
-        actionStartIndex: 00000000050000000a000000
-        actionHashCodes: 81294e04b2cf100088611604
+        - 
+        - 
+        actionEnabled: 0101010101
+        actionIsOpen: 0101010101
+        actionStartIndex: 0000000002000000050000000a0000000f000000
+        actionHashCodes: e8ea390248c0110181294e04b2cf100088611604
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams:
+        - ownerOption: 1
+          gameObject:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 588108563}
         - ownerOption: 1
           gameObject:
             useVariable: 0
@@ -66456,6 +66612,18 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
+          value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
           value: 1
         fsmIntParams: []
         fsmBoolParams:
@@ -66484,14 +66652,20 @@ MonoBehaviour:
         fsmQuaternionParams: []
         stringParams:
         - 
+        - 
         - FINISHED
-        byteData: 0000
+        byteData: 000000
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 140000000f000000180000001100000017000000140000001100000011000000010000000100000017000000
+        paramDataType: 140000000f0000000f0000001700000001000000140000000f000000180000001100000017000000140000001100000011000000010000000100000017000000
         paramName:
+        - gameObject
+        - fadeTime
+        - time
+        - finishEvent
+        - realTime
         - gameObject
         - volume
         - oneShotClip
@@ -66503,13 +66677,16 @@ MonoBehaviour:
         - resetOnExit
         - everyFrame
         - sendEvent
-        paramDataPos: 0000000000000000000000000000000000000000010000000100000002000000000000000100000001000000
-        paramByteDataSize: 0000000000000000000000000000000000000000000000000000000000000000010000000100000000000000
+        paramDataPos: 00000000000000000100000000000000000000000100000002000000000000000000000001000000020000000100000002000000010000000200000002000000
+        paramByteDataSize: 00000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000000000000010000000100000000000000
     events:
     - name: 'on click '
       isSystemEvent: 0
       isGlobal: 0
     - name: FINISHED
+      isSystemEvent: 1
+      isGlobal: 0
+    - name: UI CLICK
       isSystemEvent: 1
       isGlobal: 0
     globalTransitions: []
@@ -66579,20 +66756,6 @@ MonoBehaviour:
     handleAnimatorIK: 0
   fsmTemplate: {fileID: 0}
   eventHandlerComponentsAdded: 0
---- !u!64 &1476895436
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1476895432}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
 --- !u!43 &1478328089
 Mesh:
   m_ObjectHideFlags: 0
@@ -89847,7 +90010,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2065310715}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1b7c3ce72f27144c1be5a4a8ce09121d, type: 3}
   m_Name: 
