@@ -17,4 +17,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/space-mixology.unity
     guid: 7a120e4db9333495c99986e30715ea22
+  - enabled: 1
+    path: Assets/Scenes/UIevent.unity
+    guid: 6192c7995a754461888c1d219a44d9a7
+  - enabled: 1
+    path: Assets/Scenes/UIclubs.unity
+    guid: b04f275bb25e24a2596b69a5d7eb6b90
+  - enabled: 1
+    path: Assets/Scenes/UIchat.unity
+    guid: 7d11da7ba3fba477e90756e9f3adb52a
+  - enabled: 1
+    path: Assets/Scenes/Reward.unity
+    guid: 21e32090e3ae2461db43712c88c1503f
   m_configObjects: {}
