@@ -27364,7 +27364,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh28076
+  m_Name: pb_Mesh129780
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -37103,63 +37103,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b7c3ce72f27144c1be5a4a8ce09121d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  interactionSource: 0
-  limitToCamera: {fileID: 0}
-  interactiveBoundary: {fileID: 0}
-  hotspotName: Music Switch
-  lineID: -1
-  highlight: {fileID: 0}
-  walkToMarker: {fileID: 0}
-  centrePoint: {fileID: 0}
-  centrePointOverrides: 0
-  provideUseInteraction: 0
-  useButton: {interaction: {fileID: 0}, assetFile: {fileID: 0}, customScriptObject: {fileID: 0}, customScriptFunction: , isDisabled: 0, invID: 0, iconID: -1, selectItemMode: 0, playerAction: 0, setProximity: 0, proximity: 1, faceAfter: 0, isBlocking: 0, parameterID: -1, invParameterID: -1}
-  useButtons: []
-  oneClick: 0
-  provideLookInteraction: 0
-  lookButton: {interaction: {fileID: 0}, assetFile: {fileID: 0}, customScriptObject: {fileID: 0}, customScriptFunction: , isDisabled: 0, invID: 0, iconID: -1, selectItemMode: 0, playerAction: 0, setProximity: 0, proximity: 1, faceAfter: 0, isBlocking: 0, parameterID: -1, invParameterID: -1}
-  provideInvInteraction: 0
-  invButtons: []
-  provideUnhandledUseInteraction: 0
-  provideUnhandledInvInteraction: 0
-  unhandledUseButton: {interaction: {fileID: 0}, assetFile: {fileID: 0}, customScriptObject: {fileID: 0}, customScriptFunction: , isDisabled: 0, invID: 0, iconID: -1, selectItemMode: 0, playerAction: 0, setProximity: 0, proximity: 1, faceAfter: 0, isBlocking: 0, parameterID: -1, invParameterID: -1}
-  unhandledInvButton: {interaction: {fileID: 0}, assetFile: {fileID: 0}, customScriptObject: {fileID: 0}, customScriptFunction: , isDisabled: 0, invID: 0, iconID: -1, selectItemMode: 0, playerAction: 0, setProximity: 0, proximity: 1, faceAfter: 0, isBlocking: 0, parameterID: -1, invParameterID: -1}
-  canBeLowerCase: 0
-  drawGizmos: 1
-  lastInteractionIndex: 0
-  displayLineID: -1
-  iconSortingLayer: 
-  iconSortingOrder: 0
-  doubleClickingHotspot: 0
-  playerTurnsHead: 1
-  _collider: {fileID: 0}
-  _collider2D: {fileID: 0}
-  isOn: 1
-  iconAlpha: 0
-  iconSprite: {fileID: 0}
-  iconRenderer: {fileID: 0}
-  mainIcon: {texture: {fileID: 0}, isAnimated: 0, numFrames: 1, numRows: 1, numCols: 1, size: 0.04, animSpeed: 4, endAnimOnLastFrame: 0, skipFirstFrameWhenLooping: 0, clickOffset: {x: 0, y: 0}, frameSpeeds: []
-, alwaysAnimate: 0, uniqueIdentifier: , frameIndex: 0, frameWidth: -1, frameHeight: -1, sprites: []
-, textures: []
-, texture2D: {fileID: 0}, firstFrameRect:
-      x: 0
-      y: 0
-      width: 0
-      height: 0
-, showExtra: 0, dontCycle: 0, label: Icon 1, lineID: -1, id: 0}
-  hotspotIcon: {texture: {fileID: 0}, isAnimated: 0, numFrames: 1, numRows: 1, numCols: 1, size: 0.015, animSpeed: 4, endAnimOnLastFrame: 0, skipFirstFrameWhenLooping: 0, clickOffset: {x: 0, y: 0}, frameSpeeds: []
-, alwaysAnimate: 0, uniqueIdentifier: , frameIndex: 0, frameWidth: -1, frameHeight: -1, sprites: []
-, textures: []
-, texture2D: {fileID: 0}, firstFrameRect:
-      x: 0
-      y: 0
-      width: 0
-      height: 0
-, showExtra: 0}
-  manualShowIconSpeed: 5
-  manuallyShowIcon: 0
-  tooFarAway: 0
-  _transform: {fileID: 0}
 --- !u!1 &1045353776
 GameObject:
   m_ObjectHideFlags: 0
@@ -93427,64 +93370,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b7c3ce72f27144c1be5a4a8ce09121d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  interactionSource: 0
-  limitToCamera: {fileID: 0}
-  interactiveBoundary: {fileID: 0}
-  hotspotName: Mixology class
-  lineID: -1
-  highlight: {fileID: 0}
-  walkToMarker: {fileID: 0}
-  centrePoint: {fileID: 0}
-  centrePointOverrides: 0
-  provideUseInteraction: 1
-  useButton: {interaction: {fileID: 0}, assetFile: {fileID: 0}, customScriptObject: {fileID: 0}, customScriptFunction: , isDisabled: 0, invID: 0, iconID: -1, selectItemMode: 0, playerAction: 0, setProximity: 0, proximity: 1, faceAfter: 0, isBlocking: 0, parameterID: -1, invParameterID: -1}
-  useButtons:
-  - {interaction: {fileID: 0}, assetFile: {fileID: 0}, customScriptObject: {fileID: 0}, customScriptFunction: , isDisabled: 0, invID: 0, iconID: 0, selectItemMode: 0, playerAction: 0, setProximity: 0, proximity: 1, faceAfter: 0, isBlocking: 0, parameterID: -1, invParameterID: -1}
-  oneClick: 0
-  provideLookInteraction: 0
-  lookButton: {interaction: {fileID: 0}, assetFile: {fileID: 0}, customScriptObject: {fileID: 0}, customScriptFunction: , isDisabled: 0, invID: 0, iconID: -1, selectItemMode: 0, playerAction: 0, setProximity: 0, proximity: 1, faceAfter: 0, isBlocking: 0, parameterID: -1, invParameterID: -1}
-  provideInvInteraction: 0
-  invButtons: []
-  provideUnhandledUseInteraction: 0
-  provideUnhandledInvInteraction: 1
-  unhandledUseButton: {interaction: {fileID: 0}, assetFile: {fileID: 0}, customScriptObject: {fileID: 0}, customScriptFunction: , isDisabled: 0, invID: 0, iconID: -1, selectItemMode: 0, playerAction: 0, setProximity: 0, proximity: 1, faceAfter: 0, isBlocking: 0, parameterID: -1, invParameterID: -1}
-  unhandledInvButton: {interaction: {fileID: 0}, assetFile: {fileID: 0}, customScriptObject: {fileID: 0}, customScriptFunction: , isDisabled: 0, invID: 0, iconID: -1, selectItemMode: 0, playerAction: 0, setProximity: 0, proximity: 1, faceAfter: 0, isBlocking: 0, parameterID: -1, invParameterID: -1}
-  canBeLowerCase: 0
-  drawGizmos: 1
-  lastInteractionIndex: 0
-  displayLineID: -1
-  iconSortingLayer: 
-  iconSortingOrder: 0
-  doubleClickingHotspot: 0
-  playerTurnsHead: 1
-  _collider: {fileID: 0}
-  _collider2D: {fileID: 0}
-  isOn: 1
-  iconAlpha: 0
-  iconSprite: {fileID: 0}
-  iconRenderer: {fileID: 0}
-  mainIcon: {texture: {fileID: 0}, isAnimated: 0, numFrames: 1, numRows: 1, numCols: 1, size: 0.04, animSpeed: 4, endAnimOnLastFrame: 0, skipFirstFrameWhenLooping: 0, clickOffset: {x: 0, y: 0}, frameSpeeds: []
-, alwaysAnimate: 0, uniqueIdentifier: , frameIndex: 0, frameWidth: -1, frameHeight: -1, sprites: []
-, textures: []
-, texture2D: {fileID: 0}, firstFrameRect:
-      x: 0
-      y: 0
-      width: 0
-      height: 0
-, showExtra: 0, dontCycle: 0, label: Icon 1, lineID: -1, id: 0}
-  hotspotIcon: {texture: {fileID: 0}, isAnimated: 0, numFrames: 1, numRows: 1, numCols: 1, size: 0.015, animSpeed: 4, endAnimOnLastFrame: 0, skipFirstFrameWhenLooping: 0, clickOffset: {x: 0, y: 0}, frameSpeeds: []
-, alwaysAnimate: 0, uniqueIdentifier: , frameIndex: 0, frameWidth: -1, frameHeight: -1, sprites: []
-, textures: []
-, texture2D: {fileID: 0}, firstFrameRect:
-      x: 0
-      y: 0
-      width: 0
-      height: 0
-, showExtra: 0}
-  manualShowIconSpeed: 5
-  manuallyShowIcon: 0
-  tooFarAway: 0
-  _transform: {fileID: 0}
 --- !u!114 &2065310722
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -93639,7 +93524,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: space-mixology
+          value: space-mixology 2
         fsmObjectParams:
         - useVariable: 0
           name: 
@@ -96240,192 +96125,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cdf8ee3819bec4c68b39138052c01d26, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  previewSpeechMenu: {fileID: 0}
-  previewTrackID: 0
-  menuManager: {fileID: 11400000, guid: 6a32a1b66c68c485a824455ff16396b8, type: 2}
-  normalStyle:
-    m_Name: 
-    m_Normal: {m_Background: {fileID: 0}, m_ScaledBackgrounds: []
-, m_TextColor:
-        r: 0
-        g: 0
-        b: 0
-        a: 1
-}
-    m_Hover: {m_Background: {fileID: 0}, m_ScaledBackgrounds: []
-, m_TextColor:
-        r: 0
-        g: 0
-        b: 0
-        a: 1
-}
-    m_Active: {m_Background: {fileID: 0}, m_ScaledBackgrounds: []
-, m_TextColor:
-        r: 0
-        g: 0
-        b: 0
-        a: 1
-}
-    m_Focused: {m_Background: {fileID: 0}, m_ScaledBackgrounds: []
-, m_TextColor:
-        r: 0
-        g: 0
-        b: 0
-        a: 1
-}
-    m_OnNormal: {m_Background: {fileID: 0}, m_ScaledBackgrounds: []
-, m_TextColor:
-        r: 0
-        g: 0
-        b: 0
-        a: 1
-}
-    m_OnHover: {m_Background: {fileID: 0}, m_ScaledBackgrounds: []
-, m_TextColor:
-        r: 0
-        g: 0
-        b: 0
-        a: 1
-}
-    m_OnActive: {m_Background: {fileID: 0}, m_ScaledBackgrounds: []
-, m_TextColor:
-        r: 0
-        g: 0
-        b: 0
-        a: 1
-}
-    m_OnFocused: {m_Background: {fileID: 0}, m_ScaledBackgrounds: []
-, m_TextColor:
-        r: 0
-        g: 0
-        b: 0
-        a: 1
-}
-    m_Border:
-      m_Left: 0
-      m_Right: 0
-      m_Top: 0
-      m_Bottom: 0
-    m_Margin:
-      m_Left: 0
-      m_Right: 0
-      m_Top: 0
-      m_Bottom: 0
-    m_Padding:
-      m_Left: 0
-      m_Right: 0
-      m_Top: 0
-      m_Bottom: 0
-    m_Overflow:
-      m_Left: 0
-      m_Right: 0
-      m_Top: 0
-      m_Bottom: 0
-    m_Font: {fileID: 0}
-    m_FontSize: 0
-    m_FontStyle: 0
-    m_Alignment: 0
-    m_WordWrap: 0
-    m_RichText: 1
-    m_TextClipping: 0
-    m_ImagePosition: 0
-    m_ContentOffset: {x: 0, y: 0}
-    m_FixedWidth: 0
-    m_FixedHeight: 0
-    m_StretchWidth: 1
-    m_StretchHeight: 0
-  highlightedStyle:
-    m_Name: 
-    m_Normal: {m_Background: {fileID: 0}, m_ScaledBackgrounds: []
-, m_TextColor:
-        r: 0
-        g: 0
-        b: 0
-        a: 1
-}
-    m_Hover: {m_Background: {fileID: 0}, m_ScaledBackgrounds: []
-, m_TextColor:
-        r: 0
-        g: 0
-        b: 0
-        a: 1
-}
-    m_Active: {m_Background: {fileID: 0}, m_ScaledBackgrounds: []
-, m_TextColor:
-        r: 0
-        g: 0
-        b: 0
-        a: 1
-}
-    m_Focused: {m_Background: {fileID: 0}, m_ScaledBackgrounds: []
-, m_TextColor:
-        r: 0
-        g: 0
-        b: 0
-        a: 1
-}
-    m_OnNormal: {m_Background: {fileID: 0}, m_ScaledBackgrounds: []
-, m_TextColor:
-        r: 0
-        g: 0
-        b: 0
-        a: 1
-}
-    m_OnHover: {m_Background: {fileID: 0}, m_ScaledBackgrounds: []
-, m_TextColor:
-        r: 0
-        g: 0
-        b: 0
-        a: 1
-}
-    m_OnActive: {m_Background: {fileID: 0}, m_ScaledBackgrounds: []
-, m_TextColor:
-        r: 0
-        g: 0
-        b: 0
-        a: 1
-}
-    m_OnFocused: {m_Background: {fileID: 0}, m_ScaledBackgrounds: []
-, m_TextColor:
-        r: 0
-        g: 0
-        b: 0
-        a: 1
-}
-    m_Border:
-      m_Left: 0
-      m_Right: 0
-      m_Top: 0
-      m_Bottom: 0
-    m_Margin:
-      m_Left: 0
-      m_Right: 0
-      m_Top: 0
-      m_Bottom: 0
-    m_Padding:
-      m_Left: 0
-      m_Right: 0
-      m_Top: 0
-      m_Bottom: 0
-    m_Overflow:
-      m_Left: 0
-      m_Right: 0
-      m_Top: 0
-      m_Bottom: 0
-    m_Font: {fileID: 0}
-    m_FontSize: 0
-    m_FontStyle: 0
-    m_Alignment: 0
-    m_WordWrap: 0
-    m_RichText: 1
-    m_TextClipping: 0
-    m_ImagePosition: 0
-    m_ContentOffset: {x: 0, y: 0}
-    m_FixedWidth: 0
-    m_FixedHeight: 0
-    m_StretchWidth: 1
-    m_StretchHeight: 0
-  screenSize: {x: 0, y: 0}
 --- !u!114 &8845012901540399402
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -96572,38 +96271,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34cca555a22614e3dbef82acef69c3cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  limitCursorToMenu: {fileID: 0}
-  selectedCursor: -10
-  showCursor: 0
-  canShowHardwareCursor: 0
-  pulse: 0
-  pulseDirection: 0
-  activeIcon: {texture: {fileID: 0}, isAnimated: 0, numFrames: 1, numRows: 1, numCols: 1, size: 0.015, animSpeed: 4, endAnimOnLastFrame: 0, skipFirstFrameWhenLooping: 0, clickOffset: {x: 0, y: 0}, frameSpeeds: []
-, alwaysAnimate: 0, uniqueIdentifier: , frameIndex: 0, frameWidth: -1, frameHeight: -1, sprites: []
-, textures: []
-, texture2D: {fileID: 0}, firstFrameRect:
-      x: 0
-      y: 0
-      width: 0
-      height: 0
-, showExtra: 0}
-  activeLookIcon: {texture: {fileID: 0}, isAnimated: 0, numFrames: 1, numRows: 1, numCols: 1, size: 0.015, animSpeed: 4, endAnimOnLastFrame: 0, skipFirstFrameWhenLooping: 0, clickOffset: {x: 0, y: 0}, frameSpeeds: []
-, alwaysAnimate: 0, uniqueIdentifier: , frameIndex: 0, frameWidth: -1, frameHeight: -1, sprites: []
-, textures: []
-, texture2D: {fileID: 0}, firstFrameRect:
-      x: 0
-      y: 0
-      width: 0
-      height: 0
-, showExtra: 0}
-  lastCursorName: 
-  currentCursorTexture2D: {fileID: 0}
-  currentCursorTexture: {fileID: 0}
-  contextCycleExamine: 0
-  manualCursorID: -1
-  isDrawingHiddenCursor: 0
-  forceOffCursor: 0
-  lastIconLook: 0
 --- !u!114 &8845012901540399418
 MonoBehaviour:
   m_ObjectHideFlags: 0
