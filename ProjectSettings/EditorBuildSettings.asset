@@ -32,4 +32,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/space-mixology 2.unity
     guid: b722b90d558654230b10c2a270a9087e
+  - enabled: 1
+    path: Assets/Scenes/main-menu.unity
+    guid: dd3e95b2099b44a019733a112ab1af3b
   m_configObjects: {}
