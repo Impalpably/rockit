@@ -1,7 +1,7 @@
 fileFormatVersion: 2
 guid: 2794943e2a63c40999dde988d9dbcf37
 ModelImporter:
-  serializedVersion: 20101
+  serializedVersion: 21100
   internalIDToNameTable:
   - first:
       74: -1324339039436596633
@@ -38,7 +38,7 @@ ModelImporter:
     second: HumanArmature|Female_Walk
   - first:
       74: -203655887218126122
-    second: mixamo.com
+    second: singing-3
   - first:
       74: 1959423467721882148
     second: singing-mix
@@ -82,8 +82,8 @@ ModelImporter:
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
+      loopTime: 1
+      loopBlend: 1
       loopBlendOrientation: 0
       loopBlendPositionY: 0
       loopBlendPositionXZ: 0
@@ -390,7 +390,7 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: mixamo.com
+      name: singing-3
       takeName: mixamo.com
       internalID: 0
       firstFrame: 0
@@ -401,8 +401,8 @@ ModelImporter:
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
+      loopTime: 1
+      loopBlend: 1
       loopBlendOrientation: 0
       loopBlendPositionY: 0
       loopBlendPositionXZ: 0
@@ -482,6 +482,7 @@ ModelImporter:
   animationType: 2
   humanoidOversampling: 1
   avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 0
   additionalBone: 0
   userData: 
   assetBundleName: 
