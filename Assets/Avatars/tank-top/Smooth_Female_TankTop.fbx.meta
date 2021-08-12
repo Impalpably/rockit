@@ -36,6 +36,9 @@ ModelImporter:
   - first:
       74: -4572000871502500860
     second: HumanArmature|Female_Walk
+  - first:
+      74: 2129723566329957303
+    second: HumanArmature|Female_Sitting (1)
   externalObjects:
   - first:
       type: UnityEngine:Material
