@@ -9519,16 +9519,18 @@ MonoBehaviour:
         - HutongGames.PlayMaker.Actions.ActivateGameObject
         - HutongGames.PlayMaker.Actions.ActivateGameObject
         - HutongGames.PlayMaker.Actions.ActivateGameObject
+        - HutongGames.PlayMaker.Actions.ActivateGameObject
         customNames:
         - 
         - 
         - 
         - 
         - 
-        actionEnabled: 0101010101
-        actionIsOpen: 0101010101
-        actionStartIndex: 00000000050000000a0000000f00000014000000
-        actionHashCodes: b2cf1000b2cf1000b2cf1000b2cf1000b2cf1000
+        - 
+        actionEnabled: 010101010101
+        actionIsOpen: 010101010101
+        actionStartIndex: 00000000050000000a0000000f0000001400000019000000
+        actionHashCodes: b2cf1000b2cf1000b2cf1000b2cf1000b2cf1000b2cf1000
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams:
@@ -9564,6 +9566,14 @@ MonoBehaviour:
             showInInspector: 0
             networkSync: 0
             value: {fileID: 431831660}
+        - ownerOption: 1
+          gameObject:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 153524266}
         - ownerOption: 1
           gameObject:
             useVariable: 0
@@ -9639,6 +9649,18 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
+          value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
           value: 1
         - useVariable: 0
           name: 
@@ -9652,12 +9674,12 @@ MonoBehaviour:
         fsmRectParams: []
         fsmQuaternionParams: []
         stringParams: []
-        byteData: 00000000000000000000
+        byteData: 000000000000000000000000
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 14000000110000001100000001000000010000001400000011000000110000000100000001000000140000001100000011000000010000000100000014000000110000001100000001000000010000001400000011000000110000000100000001000000
+        paramDataType: 140000001100000011000000010000000100000014000000110000001100000001000000010000001400000011000000110000000100000001000000140000001100000011000000010000000100000014000000110000001100000001000000010000001400000011000000110000000100000001000000
         paramName:
         - gameObject
         - activate
@@ -9684,8 +9706,13 @@ MonoBehaviour:
         - recursive
         - resetOnExit
         - everyFrame
-        paramDataPos: 00000000000000000100000000000000010000000100000002000000030000000200000003000000020000000400000005000000040000000500000003000000060000000700000006000000070000000400000008000000090000000800000009000000
-        paramByteDataSize: 00000000000000000000000001000000010000000000000000000000000000000100000001000000000000000000000000000000010000000100000000000000000000000000000001000000010000000000000000000000000000000100000001000000
+        - gameObject
+        - activate
+        - recursive
+        - resetOnExit
+        - everyFrame
+        paramDataPos: 00000000000000000100000000000000010000000100000002000000030000000200000003000000020000000400000005000000040000000500000003000000060000000700000006000000070000000400000008000000090000000800000009000000050000000a0000000b0000000a0000000b000000
+        paramByteDataSize: 000000000000000000000000010000000100000000000000000000000000000001000000010000000000000000000000000000000100000001000000000000000000000000000000010000000100000000000000000000000000000001000000010000000000000000000000000000000100000001000000
     events:
     - name: UI CLICK
       isSystemEvent: 1
@@ -10498,16 +10525,18 @@ MonoBehaviour:
         - HutongGames.PlayMaker.Actions.ActivateGameObject
         - HutongGames.PlayMaker.Actions.ActivateGameObject
         - HutongGames.PlayMaker.Actions.ActivateGameObject
+        - HutongGames.PlayMaker.Actions.ActivateGameObject
         customNames:
         - 
         - 
         - 
         - 
         - 
-        actionEnabled: 0101010101
-        actionIsOpen: 0101010101
-        actionStartIndex: 00000000050000000a0000000f00000014000000
-        actionHashCodes: b2cf1000b2cf1000b2cf1000b2cf1000b2cf1000
+        - 
+        actionEnabled: 010101010101
+        actionIsOpen: 010101010101
+        actionStartIndex: 00000000050000000a0000000f0000001400000019000000
+        actionHashCodes: b2cf1000b2cf1000b2cf1000b2cf1000b2cf1000b2cf1000
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams:
@@ -10534,7 +10563,7 @@ MonoBehaviour:
             tooltip: 
             showInInspector: 0
             networkSync: 0
-            value: {fileID: 1963589323}
+            value: {fileID: 153524266}
         - ownerOption: 1
           gameObject:
             useVariable: 0
@@ -10542,7 +10571,7 @@ MonoBehaviour:
             tooltip: 
             showInInspector: 0
             networkSync: 0
-            value: {fileID: 431831660}
+            value: {fileID: 114790865}
         - ownerOption: 1
           gameObject:
             useVariable: 0
@@ -10551,6 +10580,14 @@ MonoBehaviour:
             showInInspector: 0
             networkSync: 0
             value: {fileID: 241809341}
+        - ownerOption: 1
+          gameObject:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 431831660}
         animationCurveParams: []
         functionCallParams: []
         fsmTemplateControlParams: []
@@ -10583,6 +10620,18 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
         - useVariable: 0
           name: 
           tooltip: 
@@ -10631,12 +10680,12 @@ MonoBehaviour:
         fsmRectParams: []
         fsmQuaternionParams: []
         stringParams: []
-        byteData: 00000000000000000000
+        byteData: 000000000000000000000000
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 14000000110000001100000001000000010000001400000011000000110000000100000001000000140000001100000011000000010000000100000014000000110000001100000001000000010000001400000011000000110000000100000001000000
+        paramDataType: 140000001100000011000000010000000100000014000000110000001100000001000000010000001400000011000000110000000100000001000000140000001100000011000000010000000100000014000000110000001100000001000000010000001400000011000000110000000100000001000000
         paramName:
         - gameObject
         - activate
@@ -10663,8 +10712,13 @@ MonoBehaviour:
         - recursive
         - resetOnExit
         - everyFrame
-        paramDataPos: 00000000000000000100000000000000010000000100000002000000030000000200000003000000020000000400000005000000040000000500000003000000060000000700000006000000070000000400000008000000090000000800000009000000
-        paramByteDataSize: 00000000000000000000000001000000010000000000000000000000000000000100000001000000000000000000000000000000010000000100000000000000000000000000000001000000010000000000000000000000000000000100000001000000
+        - gameObject
+        - activate
+        - recursive
+        - resetOnExit
+        - everyFrame
+        paramDataPos: 00000000000000000100000000000000010000000100000002000000030000000200000003000000020000000400000005000000040000000500000003000000060000000700000006000000070000000400000008000000090000000800000009000000050000000a0000000b0000000a0000000b000000
+        paramByteDataSize: 000000000000000000000000010000000100000000000000000000000000000001000000010000000000000000000000000000000100000001000000000000000000000000000000010000000100000000000000000000000000000001000000010000000000000000000000000000000100000001000000
     events:
     - name: UI CLICK
       isSystemEvent: 1
