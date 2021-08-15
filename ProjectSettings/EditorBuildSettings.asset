@@ -11,28 +11,28 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/ChangingRoom.unity
     guid: bdf84684185724cc683ec6fdeef75b13
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/UImap.unity
     guid: be2ab0e23bfb74c9d8dbdf31d7c3cd56
   - enabled: 0
     path: Assets/Scenes/space-mixology.unity
     guid: 7a120e4db9333495c99986e30715ea22
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/UIevent.unity
     guid: 6192c7995a754461888c1d219a44d9a7
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/UIclubs.unity
     guid: b04f275bb25e24a2596b69a5d7eb6b90
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/UIchat.unity
     guid: 7d11da7ba3fba477e90756e9f3adb52a
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Reward.unity
     guid: 21e32090e3ae2461db43712c88c1503f
   - enabled: 1
     path: Assets/Scenes/cave-of-wonders.unity
     guid: b722b90d558654230b10c2a270a9087e
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/main-menu.unity
     guid: dd3e95b2099b44a019733a112ab1af3b
   - enabled: 1
@@ -41,4 +41,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/theme-selection.unity
     guid: 0bd8193efa92f4770827016f80cbf3d8
+  - enabled: 1
+    path: Assets/Scenes/tropical-tail.unity
+    guid: 81213a5d8cb0043e2a8bec80e02684c3
   m_configObjects: {}
